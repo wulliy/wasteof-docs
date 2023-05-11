@@ -1,6 +1,4 @@
-# api 
-THIS CATEGORY IS UNDER CONSTRUCTION AND IS SUBJECT TO CHANGE!!
----
+# api
 this category contains all of the documentation that you'll probably want for wasteof.money's APIs.
 
 # notes
