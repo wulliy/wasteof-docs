@@ -2,7 +2,7 @@
 the "officially unofficial" wasteof.money developer documentation.
 
 # what
-a repository documentating everything that a developer might want to know about wasteof.money.
+a repository about documentating everything that a developer might want to know about wasteof.money.
 the categories will hopefully guide you in the right direction to finding what you're looking for.
 
 (note: "wasteof" is short for wasteof.money, in case you were confused about that)
