@@ -7,6 +7,7 @@
 		"username": "jeffalo",
 		"password": "a"
 	}
+	
 	-----------
 	creates a new account depending on the request's body.
 	-----------

@@ -27,6 +27,10 @@
 - `/messages/mark/read`
 	```
 	method: POST
+	body: {
+		"messages": ["<message id>", "<message id>", ...]
+	}
+
 	-----------	
 	marks a message as read.
 	-----------
@@ -35,6 +39,10 @@
 - `/messages/mark/unread`
 	```
 	method: POST
+	body: {
+		"messages": ["<message id>", "<message id>", ...]
+	}
+	
 	-----------
 	marks a message as unread.
 	-----------

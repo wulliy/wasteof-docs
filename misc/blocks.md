@@ -1,7 +1,7 @@
 # blocks
-blocks are the cool little boxes that you can insert into a [beta](https://beta.wasteof.money) or an [alpha](https://alpha.wasteof.money) profile's sidebar.
+blocks are the cool little boxes that you can insert into a [beta](https://beta.wasteof.money) or [alpha](https://alpha.wasteof.money) profile's sidebar.
 
-there are currently x different types of blocks that you can place into your sidebar, those being:
+there are currently 7 different types of blocks that you can place into your sidebar, those being:
 - statistics (`StatsBlock`)
 - links (`LinksBlock`)
 - a youtube video (`YoutubeBlock`)
