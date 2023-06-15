@@ -20,6 +20,7 @@
 	were trending during that time frame.
 
 	the supported values for this parameter are:
+	- "day"
 	- "week"
 	- "month"
 	- "all"
