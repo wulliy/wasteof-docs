@@ -30,7 +30,7 @@ browser devtools, reverse engineering of the several sites, and generally taking
 # thanks
 no problem...
 
-but also, thanks to the contributors/community members from the previous repositories (in order from oldest to newest):
+but also, thanks to the contributors/community members from the previous repositories (in order from newest to oldest):
 - [wyndmill](https://github.com/wyndmill)
 - [frostzzone](https://github.com/frostzzone)
 - [Oren Lindsey](https://github.com/Oren-Lindsey)
