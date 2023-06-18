@@ -16,7 +16,7 @@
 	-----------
 	redirects every user currently online to the URL specified within the event.
 
-	(note: this only works if your client supports this event, otherwise it won't redirect)
+	(note: if your client doesn't support this event, nothing will happen)
 	-----------
 	```
 

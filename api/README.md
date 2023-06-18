@@ -1,4 +1,5 @@
 # api
+
 this category contains all of the documentation that you'll probably want for wasteof.money's APIs.
 
 # notes

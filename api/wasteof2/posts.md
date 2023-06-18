@@ -126,11 +126,11 @@
 	```
 	method: POST
 	body: {
-		"content": "<p>hello world!</p>",
+		"post": "<p>hello world!</p>",
 	}
 
 	-----------
-	creates a new post with the content specified in the body.
+	creates a new post with the content specified in the "post" key within the request body.
 	when creating a post, there are certain requirements that one must follow.
 
 	requirements:
