@@ -175,6 +175,7 @@
 		- "pink"
 		- "gray"
 
-	(note: you can only do this 4 times before you run out of surprises)
+	the ratelimit for this endpoint is an hour
+	(note: you can only do this 5 times before you run out of surprises)
 	-----------
 	```
