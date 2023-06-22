@@ -83,6 +83,8 @@
 	-----------
 
 	method: PUT
+	headers:
+		Authorization: "<token>"
 	example: /users/jeffalo/name
 
 	-----------
@@ -93,6 +95,8 @@
 - `/users/:username/bio`
 	```
 	method: PUT
+	headers:
+		Authorization: "<token>"
 	body: {
 		"content": "new bio"
 	}
@@ -106,6 +110,8 @@
 - `/users/:username/picture`
 	```
 	method: GET
+	headers:
+		Authorization: "<token>"
 	example: /users/jeffalo/picture?optimized=true
 
 	-----------
@@ -128,6 +134,8 @@
 - `/users/:username/banner`
 	```
 	method: GET
+	headers:
+		Authorization: "<token>"
 	example: /users/jeffalo/banner?optimized=true
 
 	-----------
@@ -143,5 +151,30 @@
 	-----------
 	changes a user's banner. this must be an valid image.
 	note: any animated images will be automatically converted into static PNGs.
+	-----------
+	```
+
+- `/users/:username/surprise`
+	```
+	method: POST
+	headers:
+		Authorization: "<token>"
+	example: /users/jeffalo/surprise
+
+	-----------
+	sets a random color for your profile.
+	the available colors you can get are:
+		- "red"
+		- "orange"
+		- "yellow"
+		- "green"
+		- "teal"
+		- "blue"
+		- "indigo"
+		- "fuchsia"
+		- "pink"
+		- "gray"
+
+	(note: you can only do this 4 times before you run out of surprises)
 	-----------
 	```
