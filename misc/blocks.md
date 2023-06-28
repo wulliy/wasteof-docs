@@ -8,7 +8,7 @@ there are currently 7 different types of blocks that you can place into your sid
 - text (`TextBlock`)
 - featured users (`FeaturedUsersBlock`)
 - a featured post (`PostBlock`)
-- (ALPHA ONLY) a scratch project (`ScratchProject`)
+- (ALPHA ONLY) a scratch project (`ScratchBlock`)
 
 in case this is helpful to anyone reading this, here's also a list of their json equivalents:
 ```json
