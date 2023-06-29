@@ -28,14 +28,7 @@ in front of you.
 browser devtools, reverse engineering of the several sites, and generally taking notes
 
 # thanks
-no problem...
-
-but also, thanks to the contributors/community members from the previous repositories (in order from newest to oldest):
-- [wyndmill](https://github.com/wyndmill)
-- [frostzzone](https://github.com/frostzzone)
-- [Oren Lindsey](https://github.com/Oren-Lindsey)
-- [Ankit_Anmol](https://github.com/Quantum-Codes)
-- [lily celeste {last_name}](https://github.com/TheAwesome98-Real)
+no problem
 
 ---
 
@@ -49,3 +42,6 @@ just try to keep issues and pull requests relevant to the repository.
 
 # licensing
 i don't think this needs a license, to be honest.
+
+# credits
+view the [THANKS.md](https://github.com/wulliy/wasteof-docs/blob/main/THANKS.md) file
