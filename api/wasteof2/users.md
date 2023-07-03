@@ -33,6 +33,9 @@
 	-----------
 
 	method: POST
+	headers:
+		Authorization: "<token>"
+
 	example: /users/jeffalo/followers
 	
 	-----------
@@ -85,6 +88,7 @@
 	method: PUT
 	headers:
 		Authorization: "<token>"
+
 	example: /users/jeffalo/name
 
 	-----------
@@ -97,9 +101,11 @@
 	method: PUT
 	headers:
 		Authorization: "<token>"
+
 	body: {
 		"content": "new bio"
 	}
+
 	example: /users/jeffalo/bio
 
 	-----------
@@ -110,8 +116,6 @@
 - `/users/:username/picture`
 	```
 	method: GET
-	headers:
-		Authorization: "<token>"
 	example: /users/jeffalo/picture?optimized=true
 
 	-----------
@@ -123,6 +127,9 @@
 	-----------
 
 	method: PUT
+	headers:
+		Authorization: "<token>"
+
 	example: /users/jeffalo/picture
 
 	-----------
@@ -134,8 +141,6 @@
 - `/users/:username/banner`
 	```
 	method: GET
-	headers:
-		Authorization: "<token>"
 	example: /users/jeffalo/banner?optimized=true
 
 	-----------
@@ -146,6 +151,9 @@
 	-----------
 
 	method: PUT
+	headers:
+		Authorization: "<token>"
+
 	example: /users/jeffalo/banner
 
 	-----------
@@ -159,6 +167,7 @@
 	method: POST
 	headers:
 		Authorization: "<token>"
+	
 	example: /users/jeffalo/surprise
 
 	-----------

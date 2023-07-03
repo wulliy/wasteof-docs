@@ -10,6 +10,9 @@
 	-----------
 
 	method: PUT
+	headers:
+		Authorization: "<token>"
+
 	-----------
 	edits the post with the specified id.
 
@@ -18,6 +21,9 @@
 	-----------
 	
 	method: DELETE
+	headers:
+		Authorization: "<token>"
+
 	-----------
 	deletes the post with the specified id.
 	-----------
@@ -36,10 +42,14 @@
 	-----------
 
 	method: POST
+	headers:
+		Authorization: "<token>"
+
 	body: {
 		"content": "<p>comment</p>",
 		"parent": null
 	}
+
 	example: /posts/60c4d33f1ea77fed94251ab7/comments
 
 	-----------
@@ -64,6 +74,9 @@
 - `/posts/:id/unpin`
 	```
 	method: POST
+	headers:
+		Authorization: "<token>"
+
 	example: /posts/60c4d33f1ea77fed94251ab7/pin
 
 	-----------
@@ -74,10 +87,14 @@
 - `/posts/:id/report`
 	```
 	method: POST
+	headers:
+		Authorization: "<token>"
+
 	body: {
 		"type": "none",
 		"reason": "report reason"
 	}
+
 	example: /posts/60c4d33f1ea77fed94251ab7/report
 
 	-----------
@@ -88,6 +105,9 @@
 - `/posts/:id/loves`
 	```
 	method: POST
+	headers:
+		Authorization: "<token>"
+
 	example: /posts/612b7b3f1148ae87a61ab063/loves
 
 	-----------
@@ -98,6 +118,9 @@
 - `/posts/:id/loves/:username`
 	```
 	method: GET
+	headers:
+		Authorization: "<token>"
+
 	example: /posts/612b7b3f1148ae87a61ab063/loves/jeffalo
 
 	-----------
@@ -115,6 +138,9 @@
 	-----------
 
 	method: DELETE
+	headers:
+		Authorization: "<token>"
+
 	example: /comments/60c4d33f1ea77fed94251ab7
 
 	-----------
@@ -125,6 +151,9 @@
 - `/posts`
 	```
 	method: POST
+	headers:
+		Authorization: "<token>"
+	
 	body: {
 		"post": "<p>hello world!</p>",
 	}

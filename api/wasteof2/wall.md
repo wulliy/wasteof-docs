@@ -11,6 +11,9 @@
 	-----------
 	
 	method: POST
+	headers:
+		Authorization: "<token>"
+	
 	body: {
 		"content": "wall content"
 	}
