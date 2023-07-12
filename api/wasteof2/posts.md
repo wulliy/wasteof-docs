@@ -99,6 +99,11 @@
 
 	-----------
 	reports the pin with the specified id.
+
+	note: while the "type" key in the request body seemingly does nothing, it must be included.
+	      otherwise, it will return an error with the message "invalid report type"
+
+	      the value can be set to anything and doesn't have to be set to "none"
 	-----------
 	```
 
@@ -192,7 +197,7 @@
 			- i.ibb.co
 
 	note: if you want to repost a post, you can add in the "repost" key with it's value being
-	a post's id into your request's body.
+	      a post's id into your request's body.
 
 	bug: having a mention be outside of a paragraph (p) element will NOT mention the user.
 	```

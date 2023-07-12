@@ -6,7 +6,6 @@
 	example: /username-from-id/60c4976b59c722b5661559c4
 
 	-----------
-		
 	returns a user with the specified id.
 	```
 
@@ -16,13 +15,14 @@
 	example: /username-available?username=jeffalo
 
 	-----------
-		
 	returns if a username is eligible for use or not.
+
+	bug: if the "username" URL parameter isn't included, the request will hang.
 	```
 
 - `/random-post`
 	```
 	method: GET
+	
 	-----------
-		
 	returns a random post from the site.
