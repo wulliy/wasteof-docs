@@ -25,8 +25,8 @@
 			"color":"yellow",
 			"links":[
   				    {
-  					"label":"micahlindley.com ",
-  					"url":"https://micahlindley.com"
+  					"label":"jeffalo.net ",
+  					"url":"https://jeffalo.net"
   				    }
   			],
 			"history":{
