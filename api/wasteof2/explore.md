@@ -23,11 +23,18 @@
 			},
 			"beta":true,
 			"color":"yellow",
-			"links":[],
+			"links":[
+  				    {
+  					"label":"micahlindley.com ",
+  					"url":"https://micahlindley.com"
+  				    }
+  			],
 			"history":{
 				"joined":1623496555000
 			},
-			"stats":{"followers":702}
+			"stats":{
+  				"followers":702
+  			}
 		    }
 		]
   
