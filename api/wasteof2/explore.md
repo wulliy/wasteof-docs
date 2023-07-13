@@ -60,4 +60,36 @@
 	-----------
 	```
 
+	 <details>
+		<summary>Reponse schema:</summary>
+
+	    {
+  		posts: [
+  			    {
+      				"_id": "64aa9e57370c70051d4843e3",
+      				"poster": {
+        				"name": "wuilly",
+        				"id": "60c4b7db3db707d5ec773b40",
+       					"color": "yellow"
+      				},
+      				"content": "<p>please take good care of my rabbit his name is shawn and this is what he looks like</p><p>thank you</p><img src=\"https://u.cubeupload.com/8ed/wabbit.png\">",
+      				"time": 1688903255536,
+      				"__order": 1,
+      				"revisions": [
+  				    {
+  					"content": "<p>please take good care of my rabbit his name is shawn and this is what he looks like</p><p>thank you</p><img src=\"https://u.cubeupload.com/8ed/wabbit.png\">",
+  					"time": 1688903255536,
+  					"current": true
+				    }
+  				],
+      				"comments": 9,
+      				"loves": 18,
+      				"reposts": 1
+    			},
+  		],
+  		since: "week"
+  	    }
+  
+	</details>
+
  
