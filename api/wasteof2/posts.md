@@ -101,9 +101,9 @@
 	reports the pin with the specified id.
 
 	note: while the "type" key in the request body seemingly does nothing, it must be included.
-	      otherwise, it will return an error with the message "invalid report type"
+	      otherwise, it will return an error with the message "invalid report type."
 
-	      the value can be set to anything and doesn't have to be set to "none"
+	      the value can be set to anything as long as it is a string, it doesn't have to be set to "none."
 	-----------
 	```
 

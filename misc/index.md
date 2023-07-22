@@ -1,5 +1,5 @@
 # index
-an index for wasteof.money, only containing "the official stuff".
+an index for wasteof.money, only containing "the official stuff."
 
 ## sites
 - [dev.wasteof.money](https://dev.wasteof.money)
@@ -7,7 +7,7 @@ an index for wasteof.money, only containing "the official stuff".
 
 	(do note that there are eariler versions of wasteof.money before this one, but those were never made public except for a few screenshots.)
 - [wasteof.money](https://wasteof.money)
-	wasteof.money 2, the current version running on production. commonly referred to as "wasteof2".
+	wasteof.money 2, the current version running on production. commonly referred to as "wasteof2."
 - [beta.wasteof.money](https://beta.wasteof.money)
 	wasteof.money 3, the "upcoming" release of wasteof.money but was set aside.
 - [alpha.wasteof.money](https://alpha.wasteof.money)
