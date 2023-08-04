@@ -1,6 +1,8 @@
 # messages
 
 - `/messages/read`
+
+  	![Requires Authorization](https://img.shields.io/badge/requires_authorization-yes-blue)
 	```
 	method: GET
 	headers:
@@ -12,6 +14,8 @@
 	```
 
 - `/messages/unread`
+
+  	![Requires Authorization](https://img.shields.io/badge/requires_authorization-yes-blue)
 	```
 	method: GET
 	headers:
@@ -23,6 +27,8 @@
 	```
 
 - `/messages/count`
+
+  	![Requires Authorization](https://img.shields.io/badge/requires_authorization-yes-blue)
 	```
 	method: GET
 	headers:
@@ -34,6 +40,8 @@
 	```
 
 - `/messages/mark/read`
+
+  	![Requires Authorization](https://img.shields.io/badge/requires_authorization-yes-blue)
 	```
 	method: POST
 	headers:
@@ -49,6 +57,8 @@
 	```
 
 - `/messages/mark/unread`
+
+	![Requires Authorization](https://img.shields.io/badge/requires_authorization-yes-blue)
 	```
 	method: POST
 	headers:
