@@ -1,8 +1,14 @@
 # posts
 
 - `/posts/:id`
+
+	![Requires Authorization](https://img.shields.io/badge/requires_authorization-GET:_no-blue)
+	![Requires Authorization](https://img.shields.io/badge/requires_authorization-PUT:_yes-green)
+	![Requires Authorization](https://img.shields.io/badge/requires_authorization-DELETE:_yes-orange)
+
 	```
 	method: GET
+
 	example: /posts/60c4d33f1ea77fed94251ab7
 
 	-----------
@@ -30,6 +36,9 @@
 	```
 
 - `/posts/:id/comments`
+
+ 	![Requires Authorization](https://img.shields.io/badge/requires_authorization-GET:_no-blue)
+	![Requires Authorization](https://img.shields.io/badge/requires_authorization-POST:_yes-blue)
 	```
 	method: GET
 	example: /posts/60c4d33f1ea77fed94251ab7/comments
@@ -58,6 +67,8 @@
 	```
 
 - `/comments/:id/replies`
+
+	![Requires Authorization](https://img.shields.io/badge/requires_authorization-no-blue)
 	```
 	method: GET
 	example: /comments/60c4d33f1ea77fed94251ab7/replies
@@ -71,7 +82,22 @@
 	```
 
 - `/posts/:id/pin`
+
+	![Requires Authorization](https://img.shields.io/badge/requires_authorization-yes-blue)
+	```
+	method: POST
+	headers:
+		Authorization: "<token>"
+
+	example: /posts/60c4d33f1ea77fed94251ab7/pin
+
+	-----------
+	pins/unpins the post with the specified id.
+	-----------
+	```
 - `/posts/:id/unpin`
+
+	![Requires Authorization](https://img.shields.io/badge/requires_authorization-yes-blue)
 	```
 	method: POST
 	headers:
@@ -85,6 +111,8 @@
 	```
 
 - `/posts/:id/report`
+
+	![Requires Authorization](https://img.shields.io/badge/requires_authorization-yes-blue)
 	```
 	method: POST
 	headers:
@@ -103,6 +131,8 @@
 	```
 
 - `/posts/:id/loves`
+
+	![Requires Authorization](https://img.shields.io/badge/requires_authorization-yes-blue)
 	```
 	method: POST
 	headers:
@@ -116,6 +146,8 @@
 	```
 
 - `/posts/:id/loves/:username`
+
+	![Requires Authorization](https://img.shields.io/badge/requires_authorization-yes-blue)
 	```
 	method: GET
 	headers:
@@ -129,6 +161,9 @@
 	```
 
 - `/comments/:id`
+
+  	![Requires Authorization](https://img.shields.io/badge/requires_authorization-GET:_no-blue)
+	![Requires Authorization](https://img.shields.io/badge/requires_authorization-DELETE:_yes-orange)
 	```
 	method: GET
 	example: /comments/60c4d33f1ea77fed94251ab7
@@ -149,6 +184,8 @@
 	```
 
 - `/posts`
+
+ 	![Requires Authorization](https://img.shields.io/badge/requires_authorization-yes-blue)
 	```
 	method: POST
 	headers:
