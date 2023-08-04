@@ -1,6 +1,8 @@
 # explore
 
 - `/explore/users/top`
+
+	![Does not require Authorization](https://img.shields.io/badge/requires_authorization-no-blue)
 	```
 	method: GET
 	-----------
@@ -42,6 +44,8 @@
  	
 
 - `/explore/posts/trending`
+
+	![Does not require Authorization](https://img.shields.io/badge/requires_authorization-no-blue)
 	```
 	method: GET
 	example: /explore/posts/trending?timeframe=week
