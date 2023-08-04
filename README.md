@@ -5,7 +5,7 @@ the "officially unofficial" wasteof.money developer documentation.
 a repository documentating nearly everything that a developer might want to know about wasteof.money.
 the categories will hopefully guide you in the right direction into finding what you're looking for.
 
-(note: "wasteof" is short for wasteof.money, in case you were confused about that)
+(note: "wasteof" is short for wasteof.money, in case you were confused about that.)
 
 # why
 mostly for two reasons, those being:
@@ -25,10 +25,10 @@ finally, i decided to scratch all of that and to instead make this, where all of
 in front of you.
 
 # how
-browser devtools, reverse engineering of the several sites, and generally taking notes
+browser devtools, reverse engineering of the several sites, and generally taking notes.
 
 # thanks
-no problem
+no problem.
 
 ---
 
@@ -44,4 +44,4 @@ just try to keep issues and pull requests relevant to the repository.
 i don't think this needs a license, to be honest.
 
 # credits
-view the [THANKS.md](https://github.com/wulliy/wasteof-docs/blob/main/THANKS.md) file
+view the [THANKS.md](https://github.com/wulliy/wasteof-docs/blob/main/THANKS.md) file.
