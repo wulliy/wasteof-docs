@@ -1,6 +1,8 @@
 # oauth
 
 - `/sessions/oauth/github/url`
+
+  	![Requires Authorization](https://img.shields.io/badge/requires_authorization-yes-blue)
 	```
 	method: GET
 	-----------
@@ -9,6 +11,8 @@
 	```
 
 - `/sessions/oauth/google/url`
+
+  	![Requires Authorization](https://img.shields.io/badge/requires_authorization-yes-blue)
 	```
 	method: GET
 	-----------
