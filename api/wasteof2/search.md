@@ -1,6 +1,8 @@
 # search
 
 - `/search/users`
+
+  	![Requires Authorization](https://img.shields.io/badge/requires_authorization-no-blue)
 	```
 	method: GET
 	example: /search/users?q=jeffalo
@@ -15,6 +17,8 @@
 	```
 
 - `/search/posts`
+
+	![Requires Authorization](https://img.shields.io/badge/requires_authorization-yes-blue)
 	```
 	method: GET
 	example: /search/posts?q=site&page=2
