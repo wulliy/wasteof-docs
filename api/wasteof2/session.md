@@ -3,7 +3,7 @@
 - `/session`
 
 	![Requires Authorization](https://img.shields.io/badge/requires_authorization-GET:_yes-blue)
-	![Requires Authorization](https://img.shields.io/badge/requires_authorization-PUT:_no-green)
+	![Requires Authorization](https://img.shields.io/badge/requires_authorization-POST:_no-green)
 	![Requires Authorization](https://img.shields.io/badge/requires_authorization-DELETE:_yes-orange)
 	```
 	method: GET
