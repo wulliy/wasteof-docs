@@ -1,14 +1,18 @@
 # users
 
 - `/users`
+
+	![Requires Authorization](https://img.shields.io/badge/requires_authorization-no-blue)
 	```
-	method: GET
+ 	method: GET
 	-----------
 	returns the amount of registered accounts on the site.
 	-----------
 	```
 
 - `/users/:name/__data.json`
+
+	![Requires Authorization](https://img.shields.io/badge/requires_authorization-no-blue)
 	```
 	method: GET
 	-----------
@@ -17,6 +21,8 @@
 	```
 
 - `/users/:name/picture`
+
+	![Requires Authorization](https://img.shields.io/badge/requires_authorization-no-blue)
 	```
 	method: GET
 	-----------
@@ -25,6 +31,8 @@
 	```
 
 - `/users/:name/banner`
+
+	![Requires Authorization](https://img.shields.io/badge/requires_authorization-no-blue)
 	```
 	method: GET
 	-----------
@@ -33,8 +41,12 @@
 	```
 
 - `/users/:name/sidebar`
+
+	![Requires Authorization](https://img.shields.io/badge/requires_authorization:_PUT-yes-green)
 	```
 	method: PUT
+ 	headers:
+ 		Authorization: "<token>"
 	body: {
 		"sidebar": [
 			{
@@ -54,8 +66,12 @@
 	```
 
 - `/users/:name/color`
+
+	![Requires Authorization](https://img.shields.io/badge/requires_authorization-yes-blue)
 	```
 	method: POST
+ 	headers:
+ 		Authorization: "<token>"
 	body: {
 		"color": "yellow"
 	}

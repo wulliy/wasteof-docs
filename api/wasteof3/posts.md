@@ -1,6 +1,8 @@
 # posts
 
 - `/posts/:id:/__data.json`
+
+	![Requires Authorization](https://img.shields.io/badge/requires_authorization-no-blue)
 	```
 	method: GET
 	-----------
@@ -9,6 +11,8 @@
 	```
 
 - `/posts/:id/reposts/__data.json`
+
+	![Requires Authorization](https://img.shields.io/badge/requires_authorization-no-blue)
 	```
 	method: GET
 	-----------
@@ -18,6 +22,8 @@
 	```
 
 - `/posts/:id/comments/:id/__data.json`
+
+	![Requires Authorization](https://img.shields.io/badge/requires_authorization-no-blue)
 	```
 	method: GET
 	-----------
@@ -27,6 +33,9 @@
 	```
 
 - `/posts/:id/loved`
+
+	![Requires Authorization](https://img.shields.io/badge/requires_authorization:_GET-no-blue)
+	![Requires Authorization](https://img.shields.io/badge/requires_authorization:_POST-yes-blue)
 	```
 	method: GET
 	-----------
@@ -35,14 +44,20 @@
 	-----------
 
 	method: POST
+ 	headers:
+ 		Authorization: "<token>"
 	-----------
 	loves/unloves a post with the specified id.
 	-----------
 	```
 
 - `/posts/:id/comments`
+
+	![Requires Authorization](https://img.shields.io/badge/requires_authorization-yes-blue)
 	```
 	method: POST
+ 	headers:
+ 		Authorization: "<token>"
 	body: {
 		"content": "<p>comment</p>"
 	}
@@ -53,8 +68,12 @@
 	```
 
 - `/posts/:id/comments/:id/replies`
+
+	![Requires Authorization](https://img.shields.io/badge/requires_authorization-yes-blue)
 	```
 	method: POST
+ 	headers:
+	 	Authorization: "<token>"
 	body: {
 		"content": "<p>reply</p>"
 	}
@@ -66,6 +85,8 @@
 	```
 
 - `/comments/:id`
+
+  	![Requires Authorization](https://img.shields.io/badge/requires_authorization-yes-blue)
 	```
 	method: DELETE
 	-----------
@@ -74,6 +95,8 @@
 	```
 
 - `/posts`
+
+	![Requires Authorization](https://img.shields.io/badge/requires_authorization-see_wasteof2_docs-black)
 	```
 	the same specification as the wasteof2 /posts endpoint.
 	```
