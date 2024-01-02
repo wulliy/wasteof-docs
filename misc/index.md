@@ -13,19 +13,21 @@ an index for wasteof.money, only containing "the official stuff."
 - [alpha.wasteof.money](https://alpha.wasteof.money)
 	wasteof.money 4, the current and most up-to-date release.
 
+- [auth.wasteof.money](https://auth.wasteof.money)
+	the authentication service named "awwth," used to restrict access to powerful services from those without a valid login.
 - [api.wasteof.money](https://api.wasteof.money)
 	the public (legacy) API used in almost every wasteof.money revision. (wasteof1 didn't have a subdomain for its api at the time.)
 - [admin.wasteof.money](https://admin.wasteof.money)
-	an IP-whitelisted web interface for managing the MongoDB database of wasteof.money.
+	an IP-whitelisted web interface for managing the MongoDB database behind wasteof.money.
 - [wiki.wasteof.money](https://wiki.wasteof.money)
 	the "officially unofficial" wiki for wasteof.money.
 - [store.wasteof.money](https://store.wasteof.money)
-	wasteof.money's fictional teaser for a store.
+	a teaser for a wasteof.money merchandise store, currently restricted to admin usage only.
 
 ## external sites
 - [wasteof.money github organization](https://github.com/orgs/waste-of)
-	no public repositories, but many private ones. mostly used for version control in case jeffalo accidentally pushes bad code to productation and doesn't have a backup on hand.
+	no public repositories, but many private ones. mostly used for version control in case jeffalo accidentally pushes bad code to production and doesn't have a backup on hand.
 - [wasteof1 github repository](https://github.com/jeffalo/wasteof.money)
-	where the source code for the legacy version of wasteof.money rests. archived.
+	where the source code for the legacy version of wasteof.money rests, remains archived.
 - [wasteof.money youtube channel](https://youtube.com/@wasteofmoney)
 	the official youtube channel for wasteof.money.

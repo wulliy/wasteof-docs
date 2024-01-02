@@ -12,11 +12,11 @@
 - `redirect`
 	```
 	arguments:
-		- url: the url to redirect everyone to
+		- url: the url to redirect most clients to
 	-----------
-	redirects every user currently online to the URL specified within the event.
-
-	(note: if your client doesn't support this event, nothing will happen)
+	redirect every web client currently online to a given URL, but only if it's been implemented.
+	(note that for clients that don't make use of HTML or the web, this event may have to be
+	 implemented in another way.)
 	-----------
 	```
 
@@ -25,6 +25,6 @@
 	arguments:
 		- content: the content that your message will contain
 	-----------
-	sends a messsage with the specified content into the public chat. (/chat)
+	sends a messsage with some content into the public chat. (/chat)
 	-----------
 	```

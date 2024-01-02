@@ -2,15 +2,16 @@
 blocks are the cool little boxes that you can insert into a [beta](https://beta.wasteof.money) or [alpha](https://alpha.wasteof.money) profile's sidebar.
 
 there are currently 7 different types of blocks that you can place into your sidebar, those being:
-- statistics (`StatsBlock`)
-- links (`LinksBlock`)
+- user statistics (`StatsBlock`)
+- user-defined links (`LinksBlock`)
 - a youtube video (`YoutubeBlock`)
 - text (`TextBlock`)
 - featured users (`FeaturedUsersBlock`)
 - a featured post (`PostBlock`)
-- (ALPHA ONLY) a scratch project (`ScratchBlock`)
+- a scratch project (`ScratchBlock`)
+(note that the scratch project block is currently only usable in alpha.)
 
-in case this is helpful to anyone reading this, here's also a list of their json equivalents:
+in case this is helpful to anyone reading this, here's also a list of their JSON equivalents:
 ```json
 {
 	"type": "StatsBlock",
@@ -77,7 +78,6 @@ in case this is helpful to anyone reading this, here's also a list of their json
 }
 ```
 
-(ALPHA ONLY!!)
 ```json
 {
 	"type": "ScratchBlock",
@@ -89,9 +89,9 @@ in case this is helpful to anyone reading this, here's also a list of their json
 ```
 
 ## side note
-blocks also contain a `dndID` key within their JSON. this key stands for "drag and drop ID" and is always set to a random value using the `Math.random` function.
+blocks also contain a `dndID` key within their JSON. this key stands for "drag and drop ID," and is always set to a pseudo-random number using the built-in JavaScript `Math.random` function.
 
-so really, a more accurate version of a block's JSON would look something like this:
+so really, a more accurate version of a block would look something like this:
 ```json
 {
 	"dndID": 0.8421870702311771, // Math.random()
