@@ -16,10 +16,11 @@
 	
 	body: {
 		"content": "wall content"
+ 		"parent": "parent id"
 	}
 	
 	-----------
 	creates a comment or reply on a user's wall with the specified username depending
-	on if the "?parent" URL parameter is specified.
+	on if the "parent" body parameter is specified.
 	-----------
 	```
