@@ -1,6 +1,8 @@
 # users
 
 - `/users`
+
+	![Requires Authorization](https://img.shields.io/badge/requires_authorization-no-blue)
 	```
 	method: POST
 	body: {
@@ -14,6 +16,8 @@
 	```
 
 - `/users/:username`
+
+	![Requires Authorization](https://img.shields.io/badge/requires_authorization-no-blue)
 	```
 	method: GET
 	example: /users/jeffalo
@@ -24,6 +28,9 @@
 	```
 
 - `/users/:username/followers`
+
+	![Requires Authorization](https://img.shields.io/badge/requires_authorization-GET:_no-blue)
+	![Requires Authorization](https://img.shields.io/badge/requires_authorization-POST:_yes-blue)
 	```
 	method: GET
 	example: /users/jeffalo/followers
@@ -44,6 +51,8 @@
 	```
 
 - `/users/:username/following`
+
+	![Requires Authorization](https://img.shields.io/badge/requires_authorization-no-blue)
 	```
 	method: GET
 	example: /users/jeffalo/following
@@ -54,6 +63,8 @@
 	```
 
 - `/users/:username/following/posts`
+
+	![Requires Authorization](https://img.shields.io/badge/requires_authorization-no-blue)
 	```
 	method: GET
 	example: /users/jeffalo/following/posts

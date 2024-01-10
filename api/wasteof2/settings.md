@@ -1,6 +1,8 @@
 # settings
 
 - `/settings`
+
+	![Requires Authorization](https://img.shields.io/badge/requires_authorization-GET:_yes-blue)
 	```
 	method: GET
 	headers:
@@ -12,6 +14,8 @@
 	```
 
 - `/settings/auth/github`
+
+	![Requires Authorization](https://img.shields.io/badge/requires_authorization-DELETE:_yes-orange)
 	```
 	method: DELETE
 	headers:
@@ -23,6 +27,8 @@
 	```
 
 - `/settings/auth/google`
+
+	![Requires Authorization](https://img.shields.io/badge/requires_authorization-DELETE:_yes-orange)
 	```
 	method: DELETE
 	headers:
@@ -34,6 +40,9 @@
 	```
 
 - `/settings/auth/password`
+
+	![Requires Authorization](https://img.shields.io/badge/requires_authorization-DELETE:_yes-orange)
+	![Requires Authorization](https://img.shields.io/badge/requires_authorization-PUT:_yes-green)
 	```
 	method: DELETE
 	headers:
@@ -54,7 +63,12 @@
 	```
 
 - `/settings/auth/github/enable`
+
+	![Requires Authorization](https://img.shields.io/badge/requires_authorization-yes-blue)
+
 - `/settings/auth/github/disable`
+
+	![Requires Authorization](https://img.shields.io/badge/requires_authorization-yes-blue)
 	```
 	method: POST
 	headers:
@@ -66,7 +80,11 @@
 	```
 
 - `/settings/auth/google/enable`
+
+	![Requires Authorization](https://img.shields.io/badge/requires_authorization-yes-blue)
 - `/settings/auth/google/disable`
+
+	![Requires Authorization](https://img.shields.io/badge/requires_authorization-yes-blue)
 	```
 	method: POST
 	headers:
@@ -78,7 +96,11 @@
 	```
 
 - `/settings/auth/password/enable`
+
+	![Requires Authorization](https://img.shields.io/badge/requires_authorization-yes-blue)
 - `/settings/auth/password/disable`
+
+	![Requires Authorization](https://img.shields.io/badge/requires_authorization-yes-blue)
 	```
 	method: POST
 	headers:
@@ -91,6 +113,8 @@
 	```
 
 - `/settings/hide-recovery-message`
+
+  	![Requires Authorization](https://img.shields.io/badge/requires_authorization-yes-blue)
 	```
 	method: POST
 	headers:
@@ -103,6 +127,9 @@
 	```
 
 - `/settings/email`
+
+	![Requires Authorization](https://img.shields.io/badge/requires_authorization:DELETE-yes-orange)
+	![Requires Authorization](https://img.shields.io/badge/requires_authorization:PUT-yes-green)
 	```
 	method: DELETE
 	headers:
@@ -124,6 +151,8 @@
 	```
 
 - `/settings/password-reset`
+
+	![Requires Authorization](https://img.shields.io/badge/requires_authorization-yes-blue)
 	```
 	method: POST
 	body: {

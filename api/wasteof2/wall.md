@@ -1,6 +1,9 @@
 # wall
 
 - `/users/:username/wall`
+
+	![Requires Authorization](https://img.shields.io/badge/requires_authorization-GET:_no-blue)
+	![Requires Authorization](https://img.shields.io/badge/requires_authorization-POST:_yes-blue)
 	```
 	method: GET
 	-----------

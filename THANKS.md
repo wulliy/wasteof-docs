@@ -7,3 +7,4 @@ special thanks to the following contributors/community members (in alphabetical 
 - [lily celeste newton](https://github.com/TheAwesome98-Real)
 - [Oren Lindsey](https://github.com/Oren-Lindsey)
 - [wyndmill](https://github.com/wyndmill)
+- [imadeanaccount](https://github.com/imadeanaccount1)
