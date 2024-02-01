@@ -111,6 +111,14 @@
 	-----------
 	changes a user's bio.
 	-----------
+ 	method: GET
+ 	body: {
+ 		"content": "bio"
+ 	}
+ 	example: /users/jeffalo/bio
+ 	----------
+ 	gets a user's bio
+ 	----------
 	```
 
 - `/users/:username/picture`
