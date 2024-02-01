@@ -12,11 +12,14 @@
 - `redirect`
 	```
 	arguments:
-		- url: the url to redirect most clients to
+		- url:  the url to redirect most clients to
+		- user: if specified, the user to redirect
 	-----------
-	redirect every web client currently online to a given URL, but only if it's been implemented.
-	(note that for clients that don't make use of HTML or the web, this event may have to be
-	 implemented in another way.)
+	redirect either everyone, or one user to a given URL via the client, but only if it's been implemented.
+	this event may only be emitted if the sender is an admin.
+
+	(note that for clients that don't make use of HTML or any web technologies, this event may be implemented
+	 another way, or not be implemented at all.)
 	-----------
 	```
 

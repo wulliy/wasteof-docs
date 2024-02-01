@@ -1,6 +1,6 @@
 # formats
 
-`/chat` message format:
+JSON format used for messages in `/chat`:
 ```json
 {
 	"from": {
